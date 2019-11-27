@@ -54,7 +54,9 @@ class Records(Resource):
         caller_id = request.args.get('caller_id', '')
         geschaeftsvorfall = ''
         kundennummer = 'Nicht übermittelt'
-        call_id = '32ggr3bfgf'
+        date = request.args.get('date', '')
+        time = request.args.get('time', '')
+        call_id = caller_id + '_' + date + '_' + time
 
         # dictionary to send via SOAP
         data = {
@@ -66,7 +68,7 @@ class Records(Resource):
             "caller_id": caller_id,
             "geschaeftsvorfall": "",
             "kundennummer": "Nicht übermittelt",
-            "call_id": "32ggr3bfgf"
+            "call_id": call_id
         }
 
         # soap client initialization
