@@ -44,9 +44,11 @@ soapSecretKey = hashlib.md5(b'DasIstEinSehrGeheimesPasswort').hexdigest()
 # always ending in "wsdl" (web service description language"
 apiEndPoint = "http://ivr-datenimport-123tv.time4quality.de/wsdl.php?WSDL"
 
+
 @app.route('/')
 def hello_world():
-        return 'Trizma RESTful API'
+    return 'Trizma RESTful API'
+
 
 class Records(Resource):
 
@@ -79,6 +81,12 @@ class Records(Resource):
                 "select qmUser from {0} where cmsID = {1} and active = {2}".format(tableDimAgents,
                                                                                    int(agent),
                                                                                    1)).fetchone()[0]
+
+            filenameAgentUsername = conn.execute(
+                "select filenameUser from {0} where cmsID = {1} and active = {2}".format(tableDimAgents,
+                                                                                         int(agent),
+                                                                                         1)).fetchone()[0]
+
         except Exception as e:
             logger.info('Failed on TRIZMA DB connect at: '
                         + str(timestamp)
@@ -100,14 +108,16 @@ class Records(Resource):
             "geschaeftsvorfall": "",
             "kundennummer": "Nicht übermittelt",
             "call_id": call_id,
+            "acd_id": filenameAgentUsername,
         }
 
         # query execution (load data to Trizma's database)
         try:
             logger.info('TRIZMA DB import')
             query = conn.execute("insert into {0} values('{1}','{2}','{3}','{4}', \
-                                 '{5}','{6}','{7}','{8}')".format(table,line,standort,prozess,
-                                 agentUsername, caller_id, geschaeftsvorfall, kundennummer,call_id))
+                                '{5}','{6}','{7}','{8}','{9}')".format(table, line, standort, prozess,
+                                                                       agentUsername, caller_id, geschaeftsvorfall,
+                                                                       kundennummer, call_id, filenameAgentUsername))
 
         except Exception as e:
             logger.info('Failed on TRIZMA DB import at: '
@@ -136,9 +146,10 @@ class Records(Resource):
                         + ', with error:'
                         + str(e))
 
-api.add_resource(Records, '/records') # Route_1
+
+api.add_resource(Records, '/records')  # Route_1
 # api.add_resource(Tracks, '/tracks') # Route_2
 # api.add_resource(Employees_Name, '/employees/<employee_id>') # Route_3
 
 if __name__ == '__main__':
-     app.run()
+    app.run()
