@@ -8,6 +8,7 @@ import logging
 from datetime import datetime
 import os
 import time
+#PROMENA
 
 now = datetime.now()
 timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
