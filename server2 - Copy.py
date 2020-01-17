@@ -12,6 +12,8 @@ import time
 now = datetime.now()
 timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 
+# nije PROMENA
+
 # create logs folder if it does not exist
 # logFileFolder = 'C:/Users/mmilosanovic/Desktop/logs'
 logFileFolder = '/home/python_project/logs'
