@@ -13,7 +13,7 @@ now = datetime.now()
 timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 
 # nije PROMENA ali i jeste
-
+# tu nesto kao
 # create logs folder if it does not exist
 # logFileFolder = 'C:/Users/mmilosanovic/Desktop/logs'
 logFileFolder = '/home/python_project/logs'
