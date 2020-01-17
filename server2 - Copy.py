@@ -40,7 +40,7 @@ soapSecretKey = hashlib.md5(b'DasIstEinSehrGeheimesPasswort').hexdigest()
 # always ending in "wsdl" (web service description language"
 apiEndPoint = "http://ivr-datenimport-123tv.time4quality.de/wsdl.php?WSDL"
 
-
+# da li radis
 class Records(Resource):
 
     def get(self):
