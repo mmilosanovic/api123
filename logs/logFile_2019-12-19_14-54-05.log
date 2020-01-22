@@ -1,0 +1,15 @@
+Thu, 19 Dec 2019 15:43:58 - INFO - Connect to DB
+Thu, 19 Dec 2019 15:43:58 - INFO - TRIZMA DB import
+Thu, 19 Dec 2019 15:43:58 - INFO - Failed on TRIZMA DB import at: 2019-12-19_14-54-05, for following calling party: 493028859214, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '493028859214','','Nicht übermittelt','493028859214_Thursday, December 19, 2019_4:43:56 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 19 Dec 2019 15:43:58 - INFO - 123TV DB import
+Thu, 19 Dec 2019 16:16:02 - INFO - Connect to DB
+Thu, 19 Dec 2019 16:16:03 - INFO - TRIZMA DB import
+Thu, 19 Dec 2019 16:16:03 - INFO - Failed on TRIZMA DB import at: 2019-12-19_14-54-05, for following calling party: 493576243270, for agent id: trz_dspasic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_dspasic',                                  '493576243270','','Nicht übermittelt','493576243270_Donnerstag, 19. Dezember 2019_17:15:57')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 19 Dec 2019 16:16:03 - INFO - 123TV DB import
+Thu, 19 Dec 2019 16:21:35 - INFO - Connect to DB
+Thu, 19 Dec 2019 16:21:35 - INFO - TRIZMA DB import
+Thu, 19 Dec 2019 16:21:36 - INFO - 123TV DB import

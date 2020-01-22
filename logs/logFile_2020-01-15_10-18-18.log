@@ -1,0 +1,30 @@
+Wed, 15 Jan 2020 10:23:18 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:23:18 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:23:18 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:24:18 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:24:18 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:24:18 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:25:59 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:25:59 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:25:59 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:26:42 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:26:42 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:26:42 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:30:44 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:30:44 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:30:44 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:31:04 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:31:04 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:31:04 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:31:33 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:31:33 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:31:33 - INFO - Failed on TRIZMA DB import at: 2020-01-15_10-18-18, for following calling party: 493043070899, for agent id: trz_vvucetic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_vvucetic',                                 '493043070899','','Nicht übermittelt','493043070899_Wednesday, January 15, 2020_11:31:32 AM','VAL_VUCETI')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 15 Jan 2020 10:31:33 - INFO - 123TV DB import
+Wed, 15 Jan 2020 10:41:47 - INFO - Connect to DB
+Wed, 15 Jan 2020 10:41:47 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 10:41:47 - INFO - Failed on TRIZMA DB import at: 2020-01-15_10-18-18, for following calling party: 493853921080, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                 '493853921080','','Nicht übermittelt','493853921080_Wednesday, January 15, 2020_11:41:42 AM','BOR_MAKSIM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 15 Jan 2020 10:41:47 - INFO - 123TV DB import

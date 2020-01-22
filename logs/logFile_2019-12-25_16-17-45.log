@@ -1,0 +1,53 @@
+Wed, 25 Dec 2019 17:10:21 - INFO - Connect to DB
+Wed, 25 Dec 2019 17:10:22 - INFO - TRIZMA DB import
+Wed, 25 Dec 2019 17:10:22 - INFO - Failed on TRIZMA DB import at: 2019-12-25_16-17-45, for following calling party: 49374480954, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '49374480954','','Nicht übermittelt','49374480954_Wednesday, December 25, 2019_6:10:19 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 25 Dec 2019 17:10:22 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:22:22 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:22:22 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 80, in get
+    int(agent),
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment
+Thu, 26 Dec 2019 07:23:06 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:23:06 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:23:06 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:23:27 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:23:27 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:23:27 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:23:32 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:23:32 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:23:32 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:24:32 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:24:32 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:24:32 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:24:54 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:24:54 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:24:54 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:25:27 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:25:27 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:25:27 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:25:50 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:25:50 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:25:50 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:26:18 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:26:18 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:26:18 - INFO - 123TV DB import

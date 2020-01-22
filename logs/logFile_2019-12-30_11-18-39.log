@@ -1,0 +1,45 @@
+Mon, 30 Dec 2019 11:24:06 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:24:06 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:24:06 - INFO - Failed on TRIZMA DB import at: 2019-12-30_11-18-39, for following calling party: 493662621267, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '493662621267','','Nicht übermittelt','493662621267_Saturday, December 28, 2019_1:30:26 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Mon, 30 Dec 2019 11:24:06 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:25:26 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:25:26 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:25:26 - INFO - Failed on TRIZMA DB import at: 2019-12-30_11-18-39, for following calling party: 493829414193, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '493829414193','','Nicht übermittelt','493829414193_Saturday, December 28, 2019_4:34:52 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Mon, 30 Dec 2019 11:25:26 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:26:23 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:26:24 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:26:24 - INFO - Failed on TRIZMA DB import at: 2019-12-30_11-18-39, for following calling party: 492346406500, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '492346406500','','Nicht übermittelt','492346406500_Saturday, December 28, 2019_5:37:41 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Mon, 30 Dec 2019 11:26:24 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:27:37 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:27:37 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:27:37 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:28:46 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:28:46 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:28:46 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:30:05 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:30:05 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:30:05 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:34:48 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:34:48 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:34:48 - INFO - 123TV DB import
+Mon, 30 Dec 2019 12:02:02 - INFO - Connect to DB
+Mon, 30 Dec 2019 12:02:02 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 12:02:03 - INFO - 123TV DB import
+Mon, 30 Dec 2019 12:04:48 - INFO - Connect to DB
+Mon, 30 Dec 2019 12:04:48 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 12:04:48 - INFO - 123TV DB import
+Mon, 30 Dec 2019 12:08:42 - INFO - Connect to DB
+Mon, 30 Dec 2019 12:08:42 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 12:08:42 - INFO - 123TV DB import
+Mon, 30 Dec 2019 12:15:56 - INFO - Connect to DB
+Mon, 30 Dec 2019 12:15:56 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 12:15:56 - INFO - 123TV DB import
+Mon, 30 Dec 2019 12:16:04 - INFO - Connect to DB
+Mon, 30 Dec 2019 12:16:04 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 12:16:04 - INFO - 123TV DB import

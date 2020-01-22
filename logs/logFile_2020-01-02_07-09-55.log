@@ -1,0 +1,68 @@
+Thu, 02 Jan 2020 07:20:43 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:20:43 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 80, in get
+    int(agent),
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment
+Thu, 02 Jan 2020 07:21:14 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:21:14 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:21:14 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:26:20 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:26:20 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:26:20 - INFO - Failed on TRIZMA DB import at: 2020-01-02_07-09-55, for following calling party: 4971167271600, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4971167271600','','Nicht übermittelt','4971167271600_Tuesday, December 31, 2019_8:01:58 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 02 Jan 2020 07:26:20 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:29:16 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:29:16 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:29:16 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:29:56 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:29:56 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:29:56 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:30:21 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:30:21 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:30:22 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:36:32 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:36:32 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:36:32 - INFO - Failed on TRIZMA DB import at: 2020-01-02_07-09-55, for following calling party: 4935796885342, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4935796885342','','Nicht übermittelt','4935796885342_Tuesday, December 31, 2019_8:57:08 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 02 Jan 2020 07:36:32 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:37:11 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:37:11 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:37:11 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:37:42 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:37:42 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:37:42 - INFO - Failed on TRIZMA DB import at: 2020-01-02_07-09-55, for following calling party: 4917624393934, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4917624393934','','Nicht übermittelt','4917624393934_Tuesday, December 31, 2019_10:14:26 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 02 Jan 2020 07:37:42 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:40:33 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:40:33 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:40:34 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:41:15 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:41:15 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:41:15 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:41:21 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:41:21 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:41:21 - INFO - 123TV DB import
+Thu, 02 Jan 2020 07:47:38 - INFO - Connect to DB
+Thu, 02 Jan 2020 07:47:38 - INFO - TRIZMA DB import
+Thu, 02 Jan 2020 07:47:38 - INFO - 123TV DB import

@@ -1,0 +1,36 @@
+Mon, 30 Dec 2019 11:24:34 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:24:35 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:24:35 - INFO - Failed on TRIZMA DB import at: 2019-12-30_11-22-53, for following calling party: 492652989150, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '492652989150','','Nicht übermittelt','492652989150_Saturday, December 28, 2019_2:34:36 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Mon, 30 Dec 2019 11:24:35 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:25:10 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:25:10 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:25:10 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:26:30 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:26:30 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:26:30 - INFO - Failed on TRIZMA DB import at: 2019-12-30_11-22-53, for following calling party: 497454949699, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '497454949699','','Nicht übermittelt','497454949699_Saturday, December 28, 2019_5:39:20 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Mon, 30 Dec 2019 11:26:30 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:27:53 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:27:53 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:27:53 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:29:36 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:29:36 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:29:36 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:29:42 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:29:42 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:29:42 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:30:17 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:30:17 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:30:17 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:30:41 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:30:41 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:30:41 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:32:28 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:32:28 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:32:28 - INFO - 123TV DB import
+Mon, 30 Dec 2019 11:36:02 - INFO - Connect to DB
+Mon, 30 Dec 2019 11:36:02 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 11:36:02 - INFO - 123TV DB import

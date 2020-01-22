@@ -1,0 +1,39 @@
+Tue, 31 Dec 2019 18:10:16 - INFO - Connect to DB
+Tue, 31 Dec 2019 18:10:17 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 18:10:17 - INFO - Failed on TRIZMA DB import at: 2019-12-31_17-01-20, for following calling party: 4934512284353, for agent id: trz_ppetkovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_ppetkovic',                                  '4934512284353','','Nicht übermittelt','4934512284353_Tuesday, December 31, 2019_7:10:10 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 18:10:17 - INFO - 123TV DB import
+Wed, 01 Jan 2020 07:37:48 - INFO - Connect to DB
+Wed, 01 Jan 2020 07:37:48 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 07:37:48 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:28:46 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:28:46 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:28:47 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:28:56 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:28:56 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:28:56 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:29:09 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:29:09 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:29:09 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:30:11 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:30:11 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:30:11 - INFO - Failed on TRIZMA DB import at: 2019-12-31_17-01-20, for following calling party: 4915202123225, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                  '4915202123225','','Nicht übermittelt','4915202123225_Tuesday, December 31, 2019_12:12:41 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 01 Jan 2020 08:30:11 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:30:36 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:30:36 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:30:36 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:30:42 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:30:42 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:30:42 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:30:58 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:30:58 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:30:58 - INFO - 123TV DB import
+Wed, 01 Jan 2020 09:54:52 - INFO - Connect to DB
+Wed, 01 Jan 2020 09:54:52 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 09:54:52 - INFO - 123TV DB import
+Wed, 01 Jan 2020 10:03:48 - INFO - Connect to DB
+Wed, 01 Jan 2020 10:03:48 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 10:03:48 - INFO - 123TV DB import

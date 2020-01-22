@@ -1,0 +1,18 @@
+Wed, 25 Dec 2019 16:07:59 - INFO - Connect to DB
+Wed, 25 Dec 2019 16:07:59 - INFO - TRIZMA DB import
+Wed, 25 Dec 2019 16:07:59 - INFO - Failed on TRIZMA DB import at: 2019-12-25_15-38-16, for following calling party: 4922853445517, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4922853445517','','Nicht übermittelt','4922853445517_Wednesday, December 25, 2019_5:07:56 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 25 Dec 2019 16:07:59 - INFO - 123TV DB import
+Wed, 25 Dec 2019 16:17:14 - INFO - Connect to DB
+Wed, 25 Dec 2019 16:17:14 - INFO - TRIZMA DB import
+Wed, 25 Dec 2019 16:17:14 - INFO - Failed on TRIZMA DB import at: 2019-12-25_15-38-16, for following calling party: 49524254820, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '49524254820','','Nicht übermittelt','49524254820_Wednesday, December 25, 2019_5:17:11 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 25 Dec 2019 16:17:14 - INFO - 123TV DB import
+Wed, 25 Dec 2019 16:43:34 - INFO - Connect to DB
+Wed, 25 Dec 2019 16:43:34 - INFO - TRIZMA DB import
+Wed, 25 Dec 2019 16:43:34 - INFO - Failed on TRIZMA DB import at: 2019-12-25_15-38-16, for following calling party: 49697073641, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '49697073641','','Nicht übermittelt','49697073641_Wednesday, December 25, 2019_5:43:31 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 25 Dec 2019 16:43:34 - INFO - 123TV DB import

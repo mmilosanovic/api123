@@ -1,0 +1,53 @@
+Fri, 27 Dec 2019 08:02:10 - INFO - Connect to DB
+Fri, 27 Dec 2019 08:02:11 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 08:02:12 - INFO - 123TV DB import
+Fri, 27 Dec 2019 08:06:08 - INFO - Connect to DB
+Fri, 27 Dec 2019 08:06:08 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/base.py", line 1246, in _execute_context
+    cursor, statement, parameters, context
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/default.py", line 581, in do_execute
+    cursor.execute(statement, parameters)
+pyodbc.OperationalError: ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68 (104) (SQLExecDirectW)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 81, in get
+    1)).fetchone()[0]
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/base.py", line 976, in execute
+    return self._execute_text(object_, multiparams, params)
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/base.py", line 1149, in _execute_text
+    parameters,
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/base.py", line 1250, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/base.py", line 1476, in _handle_dbapi_exception
+    util.raise_from_cause(sqlalchemy_exception, exc_info)
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/util/compat.py", line 398, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/util/compat.py", line 152, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/base.py", line 1246, in _execute_context
+    cursor, statement, parameters, context
+  File "/usr/local/lib/python3.6/dist-packages/sqlalchemy/engine/default.py", line 581, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (pyodbc.OperationalError) ('08S01', '[08S01] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Error code 0x68 (104) (SQLExecDirectW)')
+[SQL: select qmUser from dimAgents where cmsID = 3098 and active = 1]
+(Background on this error at: http://sqlalche.me/e/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment

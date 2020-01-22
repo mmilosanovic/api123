@@ -1,0 +1,4 @@
+Wed, 08 Jan 2020 13:00:30 - INFO - Connect to DB
+Wed, 08 Jan 2020 13:00:31 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 13:00:31 - INFO - 123TV DB import
+Wed, 08 Jan 2020 13:00:36 - INFO - Failed on 123TV DB import at: 2020-01-08_12-57-57, for following calling party: 4973160274318, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b30f26d8>: Failed to establish a new connection: [Errno 111] Connection refused',))

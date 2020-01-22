@@ -1,0 +1,24 @@
+Wed, 01 Jan 2020 08:28:25 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:28:25 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:28:25 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:29:24 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:29:24 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:29:24 - INFO - Failed on TRIZMA DB import at: 2019-12-31_18-10-47, for following calling party: 493623306619, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                  '493623306619','','Nicht übermittelt','493623306619_Tuesday, December 31, 2019_10:32:23 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 01 Jan 2020 08:29:24 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:29:39 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:29:39 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:29:39 - INFO - Failed on TRIZMA DB import at: 2019-12-31_18-10-47, for following calling party: 493092280027, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                  '493092280027','','Nicht übermittelt','493092280027_Tuesday, December 31, 2019_10:55:39 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 01 Jan 2020 08:29:39 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:29:44 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:29:44 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:29:44 - INFO - 123TV DB import
+Wed, 01 Jan 2020 08:29:50 - INFO - Connect to DB
+Wed, 01 Jan 2020 08:29:50 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 08:29:50 - INFO - 123TV DB import
+Wed, 01 Jan 2020 09:28:31 - INFO - Connect to DB
+Wed, 01 Jan 2020 09:28:31 - INFO - TRIZMA DB import
+Wed, 01 Jan 2020 09:28:31 - INFO - 123TV DB import

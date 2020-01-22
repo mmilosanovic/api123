@@ -1,0 +1,170 @@
+Mon, 30 Dec 2019 18:14:06 - INFO - Connect to DB
+Mon, 30 Dec 2019 18:14:06 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 18:14:06 - INFO - 123TV DB import
+Mon, 30 Dec 2019 18:52:57 - INFO - Connect to DB
+Mon, 30 Dec 2019 18:52:57 - INFO - TRIZMA DB import
+Mon, 30 Dec 2019 18:52:57 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:02:56 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:02:56 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:02:56 - INFO - Failed on TRIZMA DB import at: 2019-12-30_18-01-50, for following calling party: 4915123850727, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4915123850727','','Nicht übermittelt','4915123850727_Thursday, December 26, 2019_8:03:15 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 07:02:56 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:03:33 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:03:33 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:03:33 - INFO - Failed on TRIZMA DB import at: 2019-12-30_18-01-50, for following calling party: 4915737476735, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4915737476735','','Nicht übermittelt','4915737476735_Sunday, December 29, 2019_12:16:05 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 07:03:33 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:04:53 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:04:53 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:04:53 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:05:21 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:05:21 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:05:21 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:05:32 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:05:32 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:05:32 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:08:47 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:08:47 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 80, in get
+    int(agent),
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment
+Tue, 31 Dec 2019 07:10:02 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:10:02 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:10:02 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:10:48 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:10:48 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:10:48 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:13:14 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:13:14 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:13:14 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:19:02 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:19:02 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:19:02 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:19:24 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:19:24 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:19:24 - INFO - Failed on TRIZMA DB import at: 2019-12-30_18-01-50, for following calling party: 4915255261204, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4915255261204','','Nicht übermittelt','4915255261204_Monday, December 30, 2019_12:10:24 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 07:19:24 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:19:30 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:19:30 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:19:30 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:20:27 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:20:27 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:20:27 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:23:59 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:23:59 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:23:59 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:24:31 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:24:31 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:24:31 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:25:03 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:25:03 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:25:03 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:25:08 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:25:08 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:25:08 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:25:54 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:25:54 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:25:54 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:25:59 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:26:00 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:26:00 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:26:20 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:26:20 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:26:20 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:27:18 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:27:18 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:27:18 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:33:26 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:33:26 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:33:26 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:33:32 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:33:32 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:33:32 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:34:24 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:34:24 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:34:24 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:34:58 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:34:58 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:34:58 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:35:36 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:35:36 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:35:36 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:36:44 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:36:44 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:36:44 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:36:49 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:36:49 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:36:49 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:37:39 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:37:39 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:37:39 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:37:45 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:37:45 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:37:45 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:38:21 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:38:21 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:38:21 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:38:52 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:38:52 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:38:52 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:39:07 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:39:07 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:39:07 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:39:58 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:39:58 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:39:58 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:40:51 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:40:51 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:40:51 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:41:12 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:41:12 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:41:12 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:42:10 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:42:10 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:42:11 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:42:31 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:42:31 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:42:31 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:48:14 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:48:14 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:48:14 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:48:59 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:48:59 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:49:00 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:49:14 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:49:14 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:49:14 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:54:15 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:54:15 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:54:15 - INFO - 123TV DB import
+Tue, 31 Dec 2019 07:59:20 - INFO - Connect to DB
+Tue, 31 Dec 2019 07:59:20 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 07:59:20 - INFO - 123TV DB import
+Tue, 31 Dec 2019 08:00:31 - INFO - Connect to DB
+Tue, 31 Dec 2019 08:00:31 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 08:00:31 - INFO - 123TV DB import
+Tue, 31 Dec 2019 08:01:59 - INFO - Connect to DB
+Tue, 31 Dec 2019 08:01:59 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 08:01:59 - INFO - 123TV DB import

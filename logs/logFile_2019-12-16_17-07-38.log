@@ -1,0 +1,101 @@
+Tue, 17 Dec 2019 16:51:17 - INFO - Connect to DB
+Tue, 17 Dec 2019 16:51:17 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 81, in get
+    1)).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (Tue, 17 Dec 2019 16:54:11 - INFO - Connect to DB
+Tue, 17 Dec 2019 16:54:11 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 81, in get
+    1)).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.pyTue, 17 Dec 2019 17:53:28 - INFO - Connect to DB
+Tue, 17 Dec 2019 17:53:28 - INFO - TRIZMA DB import
+Tue, 17 Dec 2019 17:53:28 - INFO - 123TV DB import
+Tue, 17 Dec 2019 17:53:33 - INFO - Failed on 123TV DB import at: 2019-12-16_17-07-38, for following calling party: %m, for agent id: 3016, with error:Call to undefined method ImportCallMetaData::Message()
+Tue, 17 Dec 2019 18:09:12 - INFO - Connect to DB
+Tue, 17 Dec 2019 18:09:12 - INFO - TRIZMA DB import
+Tue, 17 Dec 2019 18:09:12 - INFO - 123TV DB import
+Tue, 17 Dec 2019 16:55:24 - INFO - Failed on 123TV DB import at: 2019-12-16_17-07-38, for following calling party: %m, for agent id: 3060, with error:Call to undefined method ImportCallMetaData::Message()
+Tue, 17 Dec 2019 18:14:15 - INFO - Connect to DB
+Tue, 17 Dec 2019 18:14:15 - INFO - TRIZMA DB import
+Tue, 17 Dec 2019 18:14:15 - INFO - 123TV DB import
+Tue, 17 Dec 2019 18:35:41 - INFO - Connect to DB
+Tue, 17 Dec 2019 18:35:41 - INFO - TRIZMA DB import
+Tue, 17 Dec 2019 18:35:41 - INFO - 123TV DB import
+Wed, 18 Dec 2019 06:52:06 - INFO - Connect to DB
+Wed, 18 Dec 2019 06:52:06 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 81, in get
+    1)).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment
+Wed, 18 Dec 2019 10:55:12 - INFO - Connect to DB
+Wed, 18 Dec 2019 10:55:12 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 81, in get
+    1)).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment
+Wed, 18 Dec 2019 11:04:06 - INFO - Connect to DB
+Wed, 18 Dec 2019 11:04:06 - INFO - TRIZMA DB import
+Wed, 18 Dec 2019 11:04:06 - INFO - 123TV DB import
+Wed, 18 Dec 2019 11:04:11 - INFO - Failed on 123TV DB import at: 2019-12-16_17-07-38, for following calling party: %m, for agent id: 3065, with error:Call to undefined method ImportCallMetaData::Message()
+Wed, 18 Dec 2019 15:07:43 - INFO - Connect to DB
+Wed, 18 Dec 2019 15:07:43 - INFO - TRIZMA DB import
+Wed, 18 Dec 2019 15:07:43 - INFO - 123TV DB import
+Wed, 18 Dec 2019 16:19:06 - INFO - Connect to DB
+Wed, 18 Dec 2019 16:19:06 - INFO - TRIZMA DB import
+Wed, 18 Dec 2019 16:19:06 - INFO - 123TV DB import
+Wed, 18 Dec 2019 16:30:52 - INFO - Connect to DB
+Wed, 18 Dec 2019 16:30:52 - INFO - TRIZMA DB import
+Wed, 18 Dec 2019 16:30:52 - INFO - 123TV DB import
+Wed, 18 Dec 2019 17:22:41 - INFO - Connect to DB
+Wed, 18 Dec 2019 17:22:41 - INFO - TRIZMA DB import
+Wed, 18 Dec 2019 17:22:41 - INFO - 123TV DB import

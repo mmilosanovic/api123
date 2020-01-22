@@ -1,0 +1,4 @@
+Thu, 26 Dec 2019 06:55:58 - INFO - Connect to DB
+Thu, 26 Dec 2019 06:55:58 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 06:55:58 - INFO - 123TV DB import
+Thu, 26 Dec 2019 06:56:04 - INFO - Failed on 123TV DB import at: 2019-12-25_17-12-27, for following calling party: %m, for agent id: 3098, with error:Call to undefined method ImportCallMetaData::Message()

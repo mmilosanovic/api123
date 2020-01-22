@@ -1,0 +1,56 @@
+Fri, 27 Dec 2019 11:04:59 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:04:59 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:04:59 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:13:04 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:13:04 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:13:04 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:24:25 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:24:25 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:24:25 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:28:39 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:28:39 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:28:39 - INFO - Failed on TRIZMA DB import at: 2019-12-27_10-53-01, for following calling party: 491789055089, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '491789055089','','Nicht übermittelt','491789055089_Wednesday, December 11, 2019_6:34:45 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 11:28:39 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:30:09 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:30:09 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:30:09 - INFO - Failed on TRIZMA DB import at: 2019-12-27_10-53-01, for following calling party: 497215004398, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '497215004398','','Nicht übermittelt','497215004398_Wednesday, December 11, 2019_7:03:53 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 11:30:09 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:30:45 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:30:45 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:30:45 - INFO - Failed on TRIZMA DB import at: 2019-12-27_10-53-01, for following calling party: 4917641228885, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4917641228885','','Nicht übermittelt','4917641228885_Wednesday, December 11, 2019_7:17:06 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 11:30:45 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:31:00 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:31:00 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 11:31:00 - INFO - Failed on TRIZMA DB import at: 2019-12-27_10-53-01, for following calling party: 4915752492854, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4915752492854','','Nicht übermittelt','4915752492854_Friday, December 27, 2019_12:30:58 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 11:31:00 - INFO - 123TV DB import
+Fri, 27 Dec 2019 11:31:33 - INFO - Connect to DB
+Fri, 27 Dec 2019 11:31:33 - ERROR - Exception on /records [GET]
+Traceback (most recent call last):
+  File "/home/python_project/hello.py", line 81, in get
+    1)).fetchone()[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/dist-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/python_project/hello.py", line 90, in get
+    + str(e))
+UnboundLocalError: local variable 'agentUsername' referenced before assignment

@@ -1,0 +1,18 @@
+Tue, 31 Dec 2019 11:15:54 - INFO - Connect to DB
+Tue, 31 Dec 2019 11:15:55 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 11:15:55 - INFO - Failed on TRIZMA DB import at: 2019-12-31_11-11-45, for following calling party: 491733147091, for agent id: trz_ppetkovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_ppetkovic',                                  '491733147091','','Nicht übermittelt','491733147091_Saturday, December 21, 2019_2:32:07 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 11:15:55 - INFO - 123TV DB import
+Tue, 31 Dec 2019 11:16:14 - INFO - Connect to DB
+Tue, 31 Dec 2019 11:16:14 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 11:16:14 - INFO - Failed on TRIZMA DB import at: 2019-12-31_11-11-45, for following calling party: 4915254622791, for agent id: trz_ppetkovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_ppetkovic',                                  '4915254622791','','Nicht übermittelt','4915254622791_Saturday, December 21, 2019_3:05:37 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 11:16:14 - INFO - 123TV DB import
+Tue, 31 Dec 2019 11:26:26 - INFO - Connect to DB
+Tue, 31 Dec 2019 11:26:26 - INFO - TRIZMA DB import
+Tue, 31 Dec 2019 11:26:26 - INFO - Failed on TRIZMA DB import at: 2019-12-31_11-11-45, for following calling party: 493514940920, for agent id: trz_ppetkovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_ppetkovic',                                  '493514940920','','Nicht übermittelt','493514940920_Saturday, December 21, 2019_3:38:59 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Tue, 31 Dec 2019 11:26:26 - INFO - 123TV DB import

@@ -1,0 +1,13 @@
+Thu, 26 Dec 2019 07:56:44 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:56:44 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:56:44 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:58:09 - INFO - Connect to DB
+Thu, 26 Dec 2019 07:58:09 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 07:58:09 - INFO - 123TV DB import
+Thu, 26 Dec 2019 07:58:14 - INFO - Failed on 123TV DB import at: 2019-12-26_07-55-56, for following calling party: , for agent id: 3155, with error:Call to undefined method ImportCallMetaData::Message()
+Thu, 26 Dec 2019 08:38:32 - INFO - Connect to DB
+Thu, 26 Dec 2019 08:38:32 - INFO - TRIZMA DB import
+Thu, 26 Dec 2019 08:38:32 - INFO - Failed on TRIZMA DB import at: 2019-12-26_07-55-56, for following calling party: 4933343868249, for agent id: trz_bdjurcilov, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bdjurcilov',                                  '4933343868249','','Nicht übermittelt','4933343868249_Donnerstag, 26. Dezember 2019_09:38:29')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 26 Dec 2019 08:38:32 - INFO - 123TV DB import

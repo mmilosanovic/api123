@@ -1,0 +1,6 @@
+Mon, 16 Dec 2019 16:50:35 - INFO -  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+Mon, 16 Dec 2019 16:50:37 - INFO - 109.245.208.129 - - [16/Dec/2019 16:50:37] "GET / HTTP/1.1" 200 -
+Mon, 16 Dec 2019 16:50:42 - INFO - Connect to DB
+Mon, 16 Dec 2019 16:50:43 - INFO - TRIZMA DB import
+Mon, 16 Dec 2019 16:50:43 - INFO - 123TV DB import
+Mon, 16 Dec 2019 16:50:48 - INFO - 109.245.208.129 - - [16/Dec/2019 16:50:48] "GET /records?agent=3016&caller_id=38163353865&date=20191120&time=140203 HTTP/1.1" 200 -

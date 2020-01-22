@@ -1,0 +1,57 @@
+Fri, 27 Dec 2019 12:13:11 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:13:11 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:13:11 - INFO - Failed on TRIZMA DB import at: 2019-12-27_12-07-15, for following calling party: 493516505592, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '493516505592','','Nicht übermittelt','493516505592_Thursday, December 19, 2019_2:24:53 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 12:13:11 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:13:48 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:13:48 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:13:48 - INFO - Failed on TRIZMA DB import at: 2019-12-27_12-07-15, for following calling party: 493641334906, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '493641334906','','Nicht übermittelt','493641334906_Thursday, December 19, 2019_3:23:17 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 12:13:48 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:13:58 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:13:58 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:13:58 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:14:53 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:14:53 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:14:53 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:15:05 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:15:05 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:15:05 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:15:55 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:15:55 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:15:55 - INFO - Failed on TRIZMA DB import at: 2019-12-27_12-07-15, for following calling party: 4964417897798, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '4964417897798','','Nicht übermittelt','4964417897798_Thursday, December 19, 2019_5:10:23 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 12:15:55 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:17:06 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:17:06 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:17:06 - INFO - Failed on TRIZMA DB import at: 2019-12-27_12-07-15, for following calling party: 491739853043, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '491739853043','','Nicht übermittelt','491739853043_Thursday, December 19, 2019_6:12:14 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 27 Dec 2019 12:17:06 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:17:49 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:17:49 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:17:49 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:18:25 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:18:25 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:18:25 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:18:46 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:18:46 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:18:46 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:20:28 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:20:28 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:20:28 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:20:49 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:20:49 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:20:49 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:21:28 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:21:28 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:21:28 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:21:43 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:21:43 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:21:43 - INFO - 123TV DB import
+Fri, 27 Dec 2019 12:23:41 - INFO - Connect to DB
+Fri, 27 Dec 2019 12:23:41 - INFO - TRIZMA DB import
+Fri, 27 Dec 2019 12:23:41 - INFO - 123TV DB import
