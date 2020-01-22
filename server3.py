@@ -58,7 +58,7 @@ class Records(Resource):
     #     return {'data': [dict(zip(tuple (query.keys()), i)) for i in query.cursor]}
 
     def get(self):
-        timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
+        timestampGet = now.strftime("%Y-%m-%d_%H-%M-%S")
 
         # get data from GET request from Avaya
         line = 'CC2Servicenummer'
@@ -89,7 +89,7 @@ class Records(Resource):
 
         except Exception as e:
             logger.info('Failed on TRIZMA DB connect at: '
-                        + str(timestamp)
+                        + str(timestampGet)
                         + ', for following calling party: '
                         + str(caller_id)
                         + ', for agent id: '
@@ -121,7 +121,7 @@ class Records(Resource):
 
         except Exception as e:
             logger.info('Failed on TRIZMA DB import at: '
-                        + str(timestamp)
+                        + str(timestampGet)
                         + ', for following calling party: '
                         + str(caller_id)
                         + ', for agent id: '
@@ -138,7 +138,7 @@ class Records(Resource):
             return {'status': 'success'}
         except Exception as e:
             logger.info('Failed on 123TV DB import at: '
-                        + str(timestamp)
+                        + str(timestampGet)
                         + ', for following calling party: '
                         + str(caller_id)
                         + ', for agent id: '
