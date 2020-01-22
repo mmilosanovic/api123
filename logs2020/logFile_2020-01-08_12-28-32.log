@@ -1,0 +1,48 @@
+Wed, 08 Jan 2020 12:33:30 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:33:30 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:33:30 - INFO - Failed on TRIZMA DB import at: 2020-01-08_12-28-32, for following calling party: 4971511690065, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '4971511690065','','Nicht übermittelt','4971511690065_Monday, December 30, 2019_12:17:59 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 12:33:30 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:33:36 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 4971511690065, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:35:29 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:35:30 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:35:30 - INFO - Failed on TRIZMA DB import at: 2020-01-08_12-28-32, for following calling party: 493571915806, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '493571915806','','Nicht übermittelt','493571915806_Wednesday, January 08, 2020_1:35:17 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 12:35:30 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:35:35 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 493571915806, for agent id: 3067, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:43:08 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:43:08 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:43:08 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:43:13 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 491742128185, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:43:44 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:43:44 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:43:44 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:43:49 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 493332520248, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:44:20 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:44:20 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:44:20 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:44:25 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 493363862301, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:44:26 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:44:26 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:44:26 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:44:31 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 4979120410915, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:48:26 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:48:26 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:48:26 - INFO - Failed on TRIZMA DB import at: 2020-01-08_12-28-32, for following calling party: 4975419559896, for agent id: trz_tjurjevic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_tjurjevic',                                  '4975419559896','','Nicht übermittelt','4975419559896_Wednesday, January 08, 2020_1:48:23 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 12:48:26 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:48:31 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 4975419559896, for agent id: 3105, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:48:56 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:48:56 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:48:56 - INFO - Failed on TRIZMA DB import at: 2020-01-08_12-28-32, for following calling party: 493657104843, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                  '493657104843','','Nicht übermittelt','493657104843_Wednesday, January 08, 2020_1:48:54 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 12:48:56 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:49:01 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 493657104843, for agent id: 3046, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:53:51 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:53:52 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:53:52 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:53:57 - INFO - Failed on 123TV DB import at: 2020-01-08_12-28-32, for following calling party: 497531695793, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b2ea0d30>: Failed to establish a new connection: [Errno 111] Connection refused',))

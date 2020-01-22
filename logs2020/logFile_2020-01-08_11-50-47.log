@@ -1,0 +1,19 @@
+Wed, 08 Jan 2020 11:55:28 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:55:28 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:55:28 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:55:33 - INFO - Failed on 123TV DB import at: 2020-01-08_11-50-47, for following calling party: 49304211752, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:59:20 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:59:20 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:59:20 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:59:25 - INFO - Failed on 123TV DB import at: 2020-01-08_11-50-47, for following calling party: 493670121730, for agent id: 3155, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:00:00 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:00:00 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:00:00 - INFO - Failed on TRIZMA DB import at: 2020-01-08_11-50-47, for following calling party: 4920838541142, for agent id: trz_tjurjevic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_tjurjevic',                                  '4920838541142','','Nicht übermittelt','4920838541142_Wednesday, January 08, 2020_12:59:56 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 12:00:00 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:00:05 - INFO - Failed on 123TV DB import at: 2020-01-08_11-50-47, for following calling party: 4920838541142, for agent id: 3105, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:01:30 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:01:30 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:01:30 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:01:35 - INFO - Failed on 123TV DB import at: 2020-01-08_11-50-47, for following calling party: 4917623964688, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)

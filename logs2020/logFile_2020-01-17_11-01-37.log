@@ -1,0 +1,30 @@
+Fri, 17 Jan 2020 11:04:12 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:04:12 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:04:12 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:04:43 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:04:43 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:04:43 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:05:30 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:05:30 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:05:30 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:06:34 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:06:34 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:06:34 - INFO - Failed on TRIZMA DB import at: 2020-01-17_11-01-37, for following calling party: 493687470105, for agent id: trz_asilni, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_asilni',                                 '493687470105','','Nicht übermittelt','493687470105_Wednesday, January 15, 2020_12:33:01 PM','ANA_SILNI')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 17 Jan 2020 11:06:34 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:10:19 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:10:19 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:10:19 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:11:30 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:11:30 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:11:31 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:12:54 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:12:54 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:12:55 - INFO - Failed on TRIZMA DB import at: 2020-01-17_11-01-37, for following calling party: 4948112081161, for agent id: trz_asilni, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_asilni',                                 '4948112081161','','Nicht übermittelt','4948112081161_Wednesday, January 15, 2020_2:19:58 PM','ANA_SILNI')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 17 Jan 2020 11:12:55 - INFO - 123TV DB import
+Fri, 17 Jan 2020 11:13:36 - INFO - Connect to DB
+Fri, 17 Jan 2020 11:13:36 - INFO - TRIZMA DB import
+Fri, 17 Jan 2020 11:13:36 - INFO - 123TV DB import

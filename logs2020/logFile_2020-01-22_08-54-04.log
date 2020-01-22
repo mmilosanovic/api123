@@ -1,0 +1,36 @@
+Wed, 22 Jan 2020 08:56:27 - INFO - Connect to DB
+Wed, 22 Jan 2020 08:56:28 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 08:56:28 - INFO - 123TV DB import
+Wed, 22 Jan 2020 08:57:53 - INFO - Connect to DB
+Wed, 22 Jan 2020 08:57:54 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 08:57:54 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:01:33 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:01:33 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:01:33 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:04:42 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:04:42 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:04:42 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:15:04 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:15:04 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:15:04 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:15:29 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:15:29 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:15:29 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:16:09 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:16:09 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:16:09 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:16:19 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:16:19 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:16:19 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:21:25 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:21:25 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:21:25 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:24:29 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:24:29 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:24:29 - INFO - Failed on TRIZMA DB import at: 2020-01-22_08-54-04, for following calling party: 4917641900240, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                 '4917641900240','','Nicht übermittelt','4917641900240_Wednesday, January 22, 2020_10:24:21 AM','MIL_ADAMOV')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 22 Jan 2020 09:24:29 - INFO - 123TV DB import
+Wed, 22 Jan 2020 09:32:24 - INFO - Connect to DB
+Wed, 22 Jan 2020 09:32:24 - INFO - TRIZMA DB import
+Wed, 22 Jan 2020 09:32:24 - INFO - 123TV DB import

@@ -1,0 +1,33 @@
+Thu, 16 Jan 2020 08:01:54 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:01:55 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:01:55 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:03:24 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:03:24 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:03:24 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:03:59 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:03:59 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:03:59 - INFO - Failed on TRIZMA DB import at: 2020-01-16_07-57-34, for following calling party: 4917631342963, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                 '4917631342963','','Nicht übermittelt','4917631342963_Thursday, January 16, 2020_9:03:54 AM','HRI_JOVIC')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 16 Jan 2020 08:03:59 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:14:18 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:14:18 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:14:18 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:14:23 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:14:23 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:14:24 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:16:29 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:16:29 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:16:29 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:18:48 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:18:48 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:18:48 - INFO - Failed on TRIZMA DB import at: 2020-01-16_07-57-34, for following calling party: 4923158034795, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                 '4923158034795','','Nicht übermittelt','4923158034795_Thursday, January 16, 2020_9:18:45 AM','MIL_ADAMOV')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 16 Jan 2020 08:18:48 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:23:29 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:23:29 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:23:29 - INFO - 123TV DB import
+Thu, 16 Jan 2020 08:25:08 - INFO - Connect to DB
+Thu, 16 Jan 2020 08:25:08 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 08:25:08 - INFO - 123TV DB import

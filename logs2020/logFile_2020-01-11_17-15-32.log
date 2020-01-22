@@ -1,0 +1,19 @@
+Sat, 11 Jan 2020 17:21:01 - INFO - Connect to DB
+Sat, 11 Jan 2020 17:21:02 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 17:21:02 - INFO - 123TV DB import
+Sat, 11 Jan 2020 17:21:07 - INFO - Failed on 123TV DB import at: 2020-01-11_17-15-32, for following calling party: 496894381326, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 18:04:27 - INFO - Connect to DB
+Sat, 11 Jan 2020 18:04:27 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 18:04:27 - INFO - 123TV DB import
+Sat, 11 Jan 2020 18:04:32 - INFO - Failed on 123TV DB import at: 2020-01-11_17-15-32, for following calling party: 493475604484, for agent id: 3036, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 18:35:17 - INFO - Connect to DB
+Sat, 11 Jan 2020 18:35:17 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 18:35:17 - INFO - Failed on TRIZMA DB import at: 2020-01-11_17-15-32, for following calling party: 4945148997072, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4945148997072','','Nicht übermittelt','4945148997072_Saturday, January 11, 2020_7:35:12 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 11 Jan 2020 18:35:17 - INFO - 123TV DB import
+Sat, 11 Jan 2020 18:35:22 - INFO - Failed on 123TV DB import at: 2020-01-11_17-15-32, for following calling party: 4945148997072, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sun, 12 Jan 2020 07:35:46 - INFO - Connect to DB
+Sun, 12 Jan 2020 07:35:46 - INFO - TRIZMA DB import
+Sun, 12 Jan 2020 07:35:46 - INFO - 123TV DB import
+Sun, 12 Jan 2020 07:35:51 - INFO - Failed on 123TV DB import at: 2020-01-11_17-15-32, for following calling party: 4917641928526, for agent id: 3046, with error:Missing element acd_id (importCallMetaData.acd_id)

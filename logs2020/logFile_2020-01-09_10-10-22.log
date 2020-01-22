@@ -1,0 +1,30 @@
+Thu, 09 Jan 2020 10:22:24 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:22:25 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:22:25 - INFO - Failed on TRIZMA DB import at: 2020-01-09_10-10-22, for following calling party: 4938203731183, for agent id: trz_smaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_smaksimovic',                                  '4938203731183','','Nicht übermittelt','4938203731183_Thursday, January 9, 2020_11:22:16 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 09 Jan 2020 10:22:25 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:23:35 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:23:35 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:23:35 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:24:05 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:24:05 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:24:05 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:24:33 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:24:33 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:24:33 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:26:15 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:26:15 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:26:15 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:27:28 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:27:28 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:27:28 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:35:25 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:35:25 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:35:25 - INFO - Failed on TRIZMA DB import at: 2020-01-09_10-10-22, for following calling party: 4962046081624, for agent id: trz_iastojic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_iastojic',                                  '4962046081624','','Nicht übermittelt','4962046081624_Thursday, January 9, 2020_11:35:22 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 09 Jan 2020 10:35:25 - INFO - 123TV DB import
+Thu, 09 Jan 2020 10:36:25 - INFO - Connect to DB
+Thu, 09 Jan 2020 10:36:25 - INFO - TRIZMA DB import
+Thu, 09 Jan 2020 10:36:25 - INFO - 123TV DB import

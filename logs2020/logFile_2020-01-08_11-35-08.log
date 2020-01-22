@@ -1,0 +1,41 @@
+Wed, 08 Jan 2020 11:37:20 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:37:20 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:37:20 - INFO - Failed on TRIZMA DB import at: 2020-01-08_11-35-08, for following calling party: 4922419440290, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4922419440290','','Nicht übermittelt','4922419440290_Wednesday, January 08, 2020_12:37:11 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 11:37:20 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:37:26 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 4922419440290, for agent id: 3067, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:38:05 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:38:05 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:38:05 - INFO - Failed on TRIZMA DB import at: 2020-01-08_11-35-08, for following calling party: 493643504028, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                  '493643504028','','Nicht übermittelt','493643504028_Saturday, December 28, 2019_4:12:12 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 11:38:05 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:38:10 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 493643504028, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:42:02 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:42:02 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:42:02 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:42:07 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 492159696898, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:42:23 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:42:23 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:42:23 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:42:28 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 4929818995748, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:43:40 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:43:40 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:43:40 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:43:45 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 4951399574408, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:44:09 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:44:09 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:44:09 - INFO - Failed on TRIZMA DB import at: 2020-01-08_11-35-08, for following calling party: 4915772664280, for agent id: trz_tjurjevic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_tjurjevic',                                  '4915772664280','','Nicht übermittelt','4915772664280_Wednesday, January 08, 2020_12:44:05 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 08 Jan 2020 11:44:09 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:44:14 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 4915772664280, for agent id: 3105, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:44:18 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:44:19 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:44:19 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:44:24 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 4917655998199, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 11:47:28 - INFO - Connect to DB
+Wed, 08 Jan 2020 11:47:28 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 11:47:28 - INFO - 123TV DB import
+Wed, 08 Jan 2020 11:47:33 - INFO - Failed on 123TV DB import at: 2020-01-08_11-35-08, for following calling party: 491774577595, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)

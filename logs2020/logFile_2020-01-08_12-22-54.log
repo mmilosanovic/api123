@@ -1,0 +1,64 @@
+Wed, 08 Jan 2020 12:28:04 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:28:05 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:28:05 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:28:10 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 49236572792, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:33:05 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:33:05 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:33:05 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:33:10 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4917651958467, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:39:16 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:39:16 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:39:16 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:39:21 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4971332338927, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:42:42 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:42:42 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:42:42 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:42:48 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 493820513267, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:43:49 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:43:49 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:43:49 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:43:54 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 493397013372, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:45:11 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:45:11 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:45:12 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:45:17 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 493323460609, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:45:17 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:45:17 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:45:17 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:45:22 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 498502915815, for agent id: 3098, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:48:46 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:48:46 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:48:46 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:48:51 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4989302000, for agent id: 3036, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
+Wed, 08 Jan 2020 12:54:17 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:54:17 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:54:17 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:54:22 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4915731732434, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b3119780>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 12:54:32 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:54:32 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:54:32 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:54:37 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4915141271792, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b2ea47f0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 12:54:38 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:54:38 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:54:38 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:54:43 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 491736097371, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b3119748>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 12:57:55 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:57:55 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:57:55 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:58:00 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4920937784881, for agent id: 3122, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b2e9a9e8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 12:59:49 - INFO - Connect to DB
+Wed, 08 Jan 2020 12:59:49 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 12:59:49 - INFO - 123TV DB import
+Wed, 08 Jan 2020 12:59:54 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 4922375064819, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b30f2978>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 13:01:02 - INFO - Connect to DB
+Wed, 08 Jan 2020 13:01:02 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 13:01:02 - INFO - 123TV DB import
+Wed, 08 Jan 2020 13:01:07 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 493695602208, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b2eac828>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 13:01:19 - INFO - Connect to DB
+Wed, 08 Jan 2020 13:01:19 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 13:01:19 - INFO - 123TV DB import
+Wed, 08 Jan 2020 13:01:24 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 49306747630, for agent id: 3036, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b5d58e80>: Failed to establish a new connection: [Errno 111] Connection refused',))
+Wed, 08 Jan 2020 13:02:25 - INFO - Connect to DB
+Wed, 08 Jan 2020 13:02:25 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 13:02:25 - INFO - 123TV DB import
+Wed, 08 Jan 2020 13:02:30 - INFO - Failed on 123TV DB import at: 2020-01-08_12-22-54, for following calling party: 49309289194, for agent id: 3105, with error:HTTPConnectionPool(host='ivr-datenimport-123tv.time4quality.de', port=80): Max retries exceeded with url: /wsdl.php?WSDL (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd4b2e9a320>: Failed to establish a new connection: [Errno 111] Connection refused',))

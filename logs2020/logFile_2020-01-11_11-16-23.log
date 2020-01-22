@@ -1,0 +1,57 @@
+Sat, 11 Jan 2020 11:19:03 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:19:04 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:19:04 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:19:09 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49632261862, for agent id: 3105, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:21:18 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:21:18 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:21:18 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:21:23 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49622371705, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:21:54 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:21:54 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:21:54 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:21:59 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 4952356474, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:22:45 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:22:45 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:22:45 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:22:50 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49853122125, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:23:47 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:23:47 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:23:47 - INFO - Failed on TRIZMA DB import at: 2020-01-11_11-16-23, for following calling party: 4923829617753, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4923829617753','','Nicht übermittelt','4923829617753_Monday, December 30, 2019_11:13:34 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 11 Jan 2020 11:23:47 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:23:52 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 4923829617753, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:24:23 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:24:23 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:24:23 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:24:28 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49309430117, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:27:29 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:27:29 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:27:29 - INFO - Failed on TRIZMA DB import at: 2020-01-11_11-16-23, for following calling party: 492218908322, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '492218908322','','Nicht übermittelt','492218908322_Saturday, January 11, 2020_12:27:27 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 11 Jan 2020 11:27:29 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:27:34 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 492218908322, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:28:00 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:28:00 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:28:00 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:28:05 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 4954025260, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:38:48 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:38:48 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:38:48 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:38:53 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49621855335, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:38:54 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:38:54 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:38:54 - INFO - Failed on TRIZMA DB import at: 2020-01-11_11-16-23, for following calling party: 4923314832925, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                  '4923314832925','','Nicht übermittelt','4923314832925_Tuesday, December 31, 2019_9:26:04 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 11 Jan 2020 11:38:54 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:38:59 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 4923314832925, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:39:22 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:39:22 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:39:22 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:39:27 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49202730114, for agent id: 3067, with error:Missing element acd_id (importCallMetaData.acd_id)
+Sat, 11 Jan 2020 11:47:53 - INFO - Connect to DB
+Sat, 11 Jan 2020 11:47:53 - INFO - TRIZMA DB import
+Sat, 11 Jan 2020 11:47:53 - INFO - 123TV DB import
+Sat, 11 Jan 2020 11:47:58 - INFO - Failed on 123TV DB import at: 2020-01-11_11-16-23, for following calling party: 49531846272, for agent id: 3036, with error:Missing element acd_id (importCallMetaData.acd_id)

@@ -1,0 +1,21 @@
+Sat, 18 Jan 2020 11:58:08 - INFO - Connect to DB
+Sat, 18 Jan 2020 11:58:09 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 11:58:09 - INFO - Failed on TRIZMA DB import at: 2020-01-18_11-56-31, for following calling party: 491715473389, for agent id: trz_madamovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_madamovic',                                 '491715473389','','Nicht übermittelt','491715473389_Saturday, January 18, 2020_12:58:06 PM','MIL_ADAMOV')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 18 Jan 2020 11:58:09 - INFO - 123TV DB import
+Sat, 18 Jan 2020 11:58:54 - INFO - Connect to DB
+Sat, 18 Jan 2020 11:58:54 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 11:58:54 - INFO - 123TV DB import
+Sat, 18 Jan 2020 11:59:52 - INFO - Connect to DB
+Sat, 18 Jan 2020 11:59:52 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 11:59:52 - INFO - 123TV DB import
+Sat, 18 Jan 2020 11:59:58 - INFO - Connect to DB
+Sat, 18 Jan 2020 11:59:58 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 11:59:58 - INFO - 123TV DB import
+Sat, 18 Jan 2020 12:10:59 - INFO - Connect to DB
+Sat, 18 Jan 2020 12:10:59 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 12:10:59 - INFO - Failed on TRIZMA DB import at: 2020-01-18_11-56-31, for following calling party: 4920387964994, for agent id: trz_tjurjevic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_tjurjevic',                                 '4920387964994','','Nicht übermittelt','4920387964994_Saturday, January 18, 2020_1:10:55 PM','TAT_JURJEV')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 18 Jan 2020 12:10:59 - INFO - 123TV DB import

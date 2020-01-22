@@ -1,0 +1,21 @@
+Sat, 18 Jan 2020 09:13:12 - INFO - Connect to DB
+Sat, 18 Jan 2020 09:13:13 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 09:13:13 - INFO - Failed on TRIZMA DB import at: 2020-01-18_09-07-13, for following calling party: 4923747582872, for agent id: trz_ppetkovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_ppetkovic',                                 '4923747582872','','Nicht übermittelt','4923747582872_Saturday, January 18, 2020_10:13:07 AM','PET_PETKOV')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 18 Jan 2020 09:13:13 - INFO - 123TV DB import
+Sat, 18 Jan 2020 09:21:10 - INFO - Connect to DB
+Sat, 18 Jan 2020 09:21:10 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 09:21:10 - INFO - Failed on TRIZMA DB import at: 2020-01-18_09-07-13, for following calling party: 4934462279863, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                 '4934462279863','','Nicht übermittelt','4934462279863_Saturday, January 18, 2020_10:21:09 AM','SAR_STANKO')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 18 Jan 2020 09:21:10 - INFO - 123TV DB import
+Sat, 18 Jan 2020 09:35:07 - INFO - Connect to DB
+Sat, 18 Jan 2020 09:35:07 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 09:35:07 - INFO - Failed on TRIZMA DB import at: 2020-01-18_09-07-13, for following calling party: 499654922842, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                 '499654922842','','Nicht übermittelt','499654922842_Saturday, January 18, 2020_10:35:03 AM','BOR_MAKSIM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Sat, 18 Jan 2020 09:35:07 - INFO - 123TV DB import
+Sat, 18 Jan 2020 09:41:23 - INFO - Connect to DB
+Sat, 18 Jan 2020 09:41:23 - INFO - TRIZMA DB import
+Sat, 18 Jan 2020 09:41:23 - INFO - 123TV DB import

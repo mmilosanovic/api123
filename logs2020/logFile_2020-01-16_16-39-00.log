@@ -1,0 +1,21 @@
+Thu, 16 Jan 2020 16:52:32 - INFO - Connect to DB
+Thu, 16 Jan 2020 16:52:32 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 16:52:32 - INFO - Failed on TRIZMA DB import at: 2020-01-16_16-39-00, for following calling party: 4939712949637, for agent id: trz_tjurjevic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_tjurjevic',                                 '4939712949637','','Nicht übermittelt','4939712949637_Thursday, January 16, 2020_5:52:30 PM','TAT_JURJEV')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 16 Jan 2020 16:52:32 - INFO - 123TV DB import
+Thu, 16 Jan 2020 16:59:25 - INFO - Connect to DB
+Thu, 16 Jan 2020 16:59:25 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 16:59:25 - INFO - 123TV DB import
+Thu, 16 Jan 2020 17:12:12 - INFO - Connect to DB
+Thu, 16 Jan 2020 17:12:12 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 17:12:12 - INFO - 123TV DB import
+Thu, 16 Jan 2020 17:35:59 - INFO - Connect to DB
+Thu, 16 Jan 2020 17:35:59 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 17:35:59 - INFO - 123TV DB import
+Thu, 16 Jan 2020 17:54:34 - INFO - Connect to DB
+Thu, 16 Jan 2020 17:54:34 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 17:54:34 - INFO - Failed on TRIZMA DB import at: 2020-01-16_16-39-00, for following calling party: 4971368304261, for agent id: trz_bmaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_bmaksimovic',                                 '4971368304261','','Nicht übermittelt','4971368304261_Thursday, January 16, 2020_6:54:30 PM','BOR_MAKSIM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 16 Jan 2020 17:54:34 - INFO - 123TV DB import

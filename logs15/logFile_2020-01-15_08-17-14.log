@@ -1,0 +1,29 @@
+Wed, 15 Jan 2020 08:32:34 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:32:34 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:32:35 - INFO - 123TV DB import
+ DB import at: 2020-01-15_08-17-14, for following calling party: 4915229403049, for agent id: trz_vvucetic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_vvucetic',                                 '4915229403049','','Nicht übermittelt','4915229403049_Wednesday, January 15, 2020_9:23:24 AM','VAL_VUCETI')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 15 Jan 2020 08:23:30 - INFO - 123TV DB import
+Wed, 15 Jan 2020 08:23:42 - INFO - Failed on 123TV DB import at: 2020-01-15_08-17-14, for following calling party: 4915229403049, for agent id: 3182, with error:Call to undefined method ImportCallMetaData::Message()
+Wed, 15 Jan 2020 08:27:15 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:27:15 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:27:15 - INFO - 123TV DB import
+Wed, 15 Jan 2020 08:33:35 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:33:35 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:33:35 - INFO - 123TV DB import
+Wed, 15 Jan 2020 08:39:16 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:39:16 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:39:16 - INFO - 123TV DB import
+Wed, 15 Jan 2020 08:41:30 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:41:30 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:41:30 - INFO - Failed on TRIZMA DB import at: 2020-01-15_08-17-14, for following calling party: 495121131645, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                 '495121131645','','Nicht übermittelt','495121131645_Wednesday, January 15, 2020_9:41:28 AM','HRI_JOVIC')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Wed, 15 Jan 2020 08:41:30 - INFO - 123TV DB import
+Wed, 15 Jan 2020 08:54:19 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:54:19 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:54:19 - INFO - 123TV DB import
+Wed, 15 Jan 2020 08:57:39 - INFO - Connect to DB
+Wed, 15 Jan 2020 08:57:39 - INFO - TRIZMA DB import
+Wed, 15 Jan 2020 08:57:39 - INFO - 123TV DB import

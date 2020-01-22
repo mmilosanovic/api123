@@ -1,0 +1,7 @@
+Tue, 14 Jan 2020 11:21:36 - INFO - Connect to DB
+Tue, 14 Jan 2020 11:21:36 - INFO - TRIZMA DB import
+Tue, 14 Jan 2020 11:21:36 - INFO - Failed on TRIZMA DB import at: 2020-01-14_11-11-45, for following calling party: 4967629628111, for agent id: trz_divankovic, with error:(pyodbc.Error) ('21S01', '[21S01] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Column name or number of supplied values does not match table definition. (213) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_divankovic',                                  '4967629628111','','Nicht übermittelt','4967629628111_Tuesday, January 14, 2020_12:21:33 PM')]
+(Background on this error at: http://sqlalche.me/e/dbapi)
+Tue, 14 Jan 2020 11:21:36 - INFO - 123TV DB import
+Tue, 14 Jan 2020 11:21:41 - INFO - Failed on 123TV DB import at: 2020-01-14_11-11-45, for following calling party: 4967629628111, for agent id: 3019, with error:Missing element acd_id (importCallMetaData.acd_id)

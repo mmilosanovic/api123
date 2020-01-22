@@ -1,0 +1,8 @@
+Mon, 13 Jan 2020 12:14:24 - INFO - Connect to DB
+Mon, 13 Jan 2020 12:14:24 - INFO - TRIZMA DB import
+Mon, 13 Jan 2020 12:14:24 - INFO - 123TV DB import
+Mon, 13 Jan 2020 12:14:29 - INFO - Failed on 123TV DB import at: 2020-01-13_12-12-01, for following calling party: 49482142724, for agent id: 3117, with error:Missing element acd_id (importCallMetaData.acd_id)
+Mon, 13 Jan 2020 12:17:02 - INFO - Connect to DB
+Mon, 13 Jan 2020 12:17:02 - INFO - TRIZMA DB import
+Mon, 13 Jan 2020 12:17:02 - INFO - 123TV DB import
+Mon, 13 Jan 2020 12:17:07 - INFO - Failed on 123TV DB import at: 2020-01-13_12-12-01, for following calling party: 493384540100, for agent id: 3068, with error:Missing element acd_id (importCallMetaData.acd_id)

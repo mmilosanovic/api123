@@ -1,0 +1,27 @@
+Fri, 10 Jan 2020 08:26:32 - INFO - Connect to DB
+Fri, 10 Jan 2020 08:26:32 - INFO - TRIZMA DB import
+Fri, 10 Jan 2020 08:26:32 - INFO - Failed on TRIZMA DB import at: 2020-01-10_08-25-43, for following calling party: 496231634699, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                  '496231634699','','Nicht übermittelt','496231634699_Thursday, January 09, 2020_11:21:58 AM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 10 Jan 2020 08:26:32 - INFO - 123TV DB import
+Fri, 10 Jan 2020 08:27:29 - INFO - Connect to DB
+Fri, 10 Jan 2020 08:27:29 - INFO - TRIZMA DB import
+Fri, 10 Jan 2020 08:27:29 - INFO - Failed on TRIZMA DB import at: 2020-01-10_08-25-43, for following calling party: 4936179066027, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                  '4936179066027','','Nicht übermittelt','4936179066027_Thursday, January 09, 2020_12:48:04 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 10 Jan 2020 08:27:29 - INFO - 123TV DB import
+Fri, 10 Jan 2020 08:27:35 - INFO - Connect to DB
+Fri, 10 Jan 2020 08:27:35 - INFO - TRIZMA DB import
+Fri, 10 Jan 2020 08:27:35 - INFO - Failed on TRIZMA DB import at: 2020-01-10_08-25-43, for following calling party: 4915208793586, for agent id: trz_hjovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_hjovic',                                  '4915208793586','','Nicht übermittelt','4915208793586_Thursday, January 09, 2020_12:52:19 PM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Fri, 10 Jan 2020 08:27:35 - INFO - 123TV DB import
+Fri, 10 Jan 2020 08:33:00 - INFO - Connect to DB
+Fri, 10 Jan 2020 08:33:00 - INFO - TRIZMA DB import
+Fri, 10 Jan 2020 08:33:00 - INFO - 123TV DB import
+Fri, 10 Jan 2020 08:39:05 - INFO - Connect to DB
+Fri, 10 Jan 2020 08:39:05 - INFO - TRIZMA DB import
+Fri, 10 Jan 2020 08:39:05 - INFO - 123TV DB import
+Fri, 10 Jan 2020 08:39:51 - INFO - Connect to DB
+Fri, 10 Jan 2020 08:39:51 - INFO - TRIZMA DB import
+Fri, 10 Jan 2020 08:39:51 - INFO - 123TV DB import

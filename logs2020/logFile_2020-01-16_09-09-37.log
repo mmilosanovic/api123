@@ -1,0 +1,21 @@
+Thu, 16 Jan 2020 09:11:30 - INFO - Connect to DB
+Thu, 16 Jan 2020 09:11:30 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 09:11:30 - INFO - 123TV DB import
+Thu, 16 Jan 2020 09:19:59 - INFO - Connect to DB
+Thu, 16 Jan 2020 09:19:59 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 09:19:59 - INFO - Failed on TRIZMA DB import at: 2020-01-16_09-09-37, for following calling party: 493066461367, for agent id: trz_smaksimovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_smaksimovic',                                 '493066461367','','Nicht übermittelt','493066461367_Thursday, January 16, 2020_10:19:56 AM','SRD_MAKSIM')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 16 Jan 2020 09:19:59 - INFO - 123TV DB import
+Thu, 16 Jan 2020 09:23:27 - INFO - Connect to DB
+Thu, 16 Jan 2020 09:23:27 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 09:23:27 - INFO - Failed on TRIZMA DB import at: 2020-01-16_09-09-37, for following calling party: 499131128613, for agent id: trz_divankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
+[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_divankovic',                                 '499131128613','','Nicht übermittelt','499131128613_Thursday, January 16, 2020_10:23:22 AM','DUS_IVANKO')]
+(Background on this error at: http://sqlalche.me/e/9h9h)
+Thu, 16 Jan 2020 09:23:27 - INFO - 123TV DB import
+Thu, 16 Jan 2020 09:26:16 - INFO - Connect to DB
+Thu, 16 Jan 2020 09:26:16 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 09:26:16 - INFO - 123TV DB import
+Thu, 16 Jan 2020 09:27:30 - INFO - Connect to DB
+Thu, 16 Jan 2020 09:27:30 - INFO - TRIZMA DB import
+Thu, 16 Jan 2020 09:27:30 - INFO - 123TV DB import

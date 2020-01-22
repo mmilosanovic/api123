@@ -1,0 +1,4 @@
+Wed, 08 Jan 2020 10:07:36 - INFO - Connect to DB
+Wed, 08 Jan 2020 10:07:36 - INFO - TRIZMA DB import
+Wed, 08 Jan 2020 10:07:36 - INFO - 123TV DB import
+Wed, 08 Jan 2020 10:07:41 - INFO - Failed on 123TV DB import at: 2020-01-08_09-58-26, for following calling party: 4954238968, for agent id: 3046, with error:Invalid XML content received (Start tag expected, '<' not found, line 1, column 1)
