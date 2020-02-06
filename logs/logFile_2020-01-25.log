@@ -1,0 +1,25 @@
+Sun, 26 Jan 2020 07:18:51 - INFO - Connect to DB
+Sun, 26 Jan 2020 07:18:52 - INFO - TRIZMA DB import
+Sun, 26 Jan 2020 07:18:52 - INFO - 123TV DB import
+Sun, 26 Jan 2020 07:18:57 - INFO - Failed on 123TV DB import at: 2020-01-25_18-58-01, for following calling party: 493514590031, for agent id: 3182, with error:Server returned HTTP status 500 (no content available)
+Sun, 26 Jan 2020 07:20:54 - INFO - Connect to DB
+Sun, 26 Jan 2020 07:20:54 - INFO - TRIZMA DB import
+Sun, 26 Jan 2020 07:20:55 - INFO - 123TV DB import
+Sun, 26 Jan 2020 07:21:00 - INFO - Failed on 123TV DB import at: 2020-01-25_18-58-01, for following calling party: 49371300338, for agent id: 3182, with error:Server returned HTTP status 500 (no content available)
+SSun, 26 Jan 2020 07:19:03 - INFO - Connect to DB
+Sun, 26 Jan 2020 07:19:03 - INFO - TRIZMA DB import
+Sun, 26 Jan 2020 07:19:03 - INFO - 123TV DB import
+Sun, 26 Jan 2020 07:19:08 - INFO - Failed on 123TV DB import at: 2020-01-25_15-45-12, for following calling party: 493579532110, for agent id: 3182, with error:Server returned HTTP status 500 (no content available)
+Sun, 26 Jan 2020 07:19:42 - INFO - Connect to DB
+Sun, 26 Jan 2020 07:19:42 - INFO - TRIZMA DB import
+Sun, 26 Jan 2020 07:19:42 - INFO - 123TV DB import
+Sun, 26 Jan 2020 07:19:47 - INFO - Failed on 123TV DB import at: 2020-01-25_15-45-12, for following calling party: 4995724668, for agent id: 3182, with error:Server returned HTTP status 500 (no content available)
+Sun, 26 Jan 2020 07:20:34 - INFO - Connect to DB
+Sun, 26 Jan 2020 07:20:34 - INFO - TRIZMA DB import
+Sun, 26 Jan 2020 07:20:34 - INFO - 123TV DB import
+Sun, 26 Jan 2020 07:20:39 - INFO - Failed on 123TV DB import at: 2020-01-25_15-45-12, for following calling party: 493393138950, for agent id: 3182, with error:Server returned HTTP status 500 (no content available)
+le)
+Sun, 26 Jan 2020 07:20:03 - INFO - Connect to DB
+Sun, 26 Jan 2020 07:20:03 - INFO - TRIZMA DB import
+Sun, 26 Jan 2020 07:20:03 - INFO - 123TV DB import
+Sun, 26 Jan 2020 07:20:08 - INFO - Failed on 123TV DB import at: 2020-01-25_16-24-10, for following calling party: 4924155938098, for agent id: 3182, with error:Server returned HTTP status 500 (no content available)

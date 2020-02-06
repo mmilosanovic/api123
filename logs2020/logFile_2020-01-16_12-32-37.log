@@ -1,6 +1,0 @@
-Thu, 16 Jan 2020 12:34:13 - INFO - Connect to DB
-Thu, 16 Jan 2020 12:34:13 - INFO - TRIZMA DB import
-Thu, 16 Jan 2020 12:34:13 - INFO - Failed on TRIZMA DB import at: 2020-01-16_12-32-37, for following calling party: 4920261275530, for agent id: trz_sstankovic, with error:(pyodbc.DataError) ('22001', '[22001] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW)')
-[SQL: insert into records values('CC2Servicenummer','Belgrad','Nicht übermittelt','trz_sstankovic',                                 '4920261275530','','Nicht übermittelt','4920261275530_Thursday, January 16, 2020_1:34:12 PM','SAR_STANKO')]
-(Background on this error at: http://sqlalche.me/e/9h9h)
-Thu, 16 Jan 2020 12:34:14 - INFO - 123TV DB import

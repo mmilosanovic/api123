@@ -1,0 +1,10 @@
+Wed, 05 Feb 2020 07:02:49 - INFO - Connect to DB
+Wed, 05 Feb 2020 07:02:50 - INFO - TRIZMA DB import
+Wed, 05 Feb 2020 07:02:50 - INFO - 123TV DB import
+Wed, 05 Feb 2020 07:02:55 - INFO - Failed on 123TV DB import at: 2020-02-04_18-52-26, for following calling party: 4980359647047, for agent id: 3098, with error:Server returned response (200) with invalid XML: Invalid XML content received (Document is empty, line 1, column 1).
+Content: b''
+Wed, 05 Feb 2020 07:03:40 - INFO - Connect to DB
+Wed, 05 Feb 2020 07:03:40 - INFO - TRIZMA DB import
+Wed, 05 Feb 2020 07:03:41 - INFO - 123TV DB import
+Wed, 05 Feb 2020 07:03:46 - INFO - Failed on 123TV DB import at: 2020-02-04_18-52-26, for following calling party: 4917672550594, for agent id: 3065, with error:Server returned response (200) with invalid XML: Invalid XML content received (Document is empty, line 1, column 1).
+Content: b''

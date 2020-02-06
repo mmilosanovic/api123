@@ -1,0 +1,71 @@
+Thu, 30 Jan 2020 07:21:04 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:21:04 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:21:04 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:21:09 - INFO - Failed on 123TV DB import at: 2020-01-29_18-58-15, for following calling party: 493058617722, for agent id: 3046, with error:Server returned response (200) with invalid XML: Invalid XML content received (Document is empty, line 1, column 1).
+Content: b''TThu, 30 Jan 2020 07:27:08 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:27:08 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:27:08 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:27:13 - INFO - Failed on 123TV DB import at: 2020-01-29_18-58-15, for following calling party: 495116043978, for agent id: 3046, with error:Server returned response (200) with invalid XML: Invalid XML content received (Document is empty, line 1, column 1).
+Content: b''
+Thu, 30 Jan 2020 07:33:56 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:33:56 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:33:56 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:34:48 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:34:48 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:34:48 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:36:05 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:36:05 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:36:05 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:36:35 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:36:35 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:36:35 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:37:55 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:37:56 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:37:56 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:40:03 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:40:03 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:40:03 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:40:34 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:40:34 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:40:35 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:42:43 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:42:43 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:42:43 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:48:27 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:48:27 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:48:27 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:49:43 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:49:43 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:49:43 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:50:59 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:50:59 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:50:59 - INFO - 123TV DB import
+INFO - Connect to DB
+Thu, 30 Jan 2020 07:38:46 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:38:46 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:40:13 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:40:13 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:40:13 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:42:09 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:42:09 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:42:09 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:46:56 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:46:56 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:46:56 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:47:46 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:47:46 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:47:46 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:48:37 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:48:37 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:48:37 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:50:24 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:50:24 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:50:24 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:51:26 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:51:26 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:51:26 - INFO - 123TV DB import
+Thu, 30 Jan 2020 07:52:24 - INFO - Connect to DB
+Thu, 30 Jan 2020 07:52:24 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:52:24 - INFO - 123TV DB import
+ Jan 2020 07:39:17 - INFO - TRIZMA DB import
+Thu, 30 Jan 2020 07:39:17 - INFO - 123TV DB import
