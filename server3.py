@@ -8,6 +8,7 @@ import logging
 from datetime import datetime
 import os
 from json import dumps
+import re
 
 timestamp = datetime.now().strftime("%Y-%m-%d")
 
@@ -19,19 +20,24 @@ if not os.path.exists(logFileFolder):
     os.makedirs(logFileFolder)
 
 logFilePath = os.path.join(logFileFolder,
-                           'logFile_' + timestamp + '.log')
+                           '123tv.log')
 
+logHandler = logging.handlers.TimedRotatingFileHandler(logFilePath,when="midnight",interval=1)
+logFormatter = logging.Formatter('%(asctime)20s - %(levelname)7s - %(message)s')
+logHandler.setFormatter(logFormatter)
 logger = logging.getLogger(__name__)
-logConfig = logging.basicConfig(level=logging.INFO,
-                                format='%(asctime)s - %(levelname)s - %(message)s',
-                                datefmt='%a, %d %b %Y %H:%M:%S',
-                                filename=logFilePath,
-                                filemode='w')
+
+# add a suffix which you want
+logHandler.suffix = "%Y%m%d"
+
+#need to change the extMatch variable to match the suffix for it
+logHandler.extMatch = re.compile(r"^\d{8}$")
+
+logger.addHandler(logHandler)
+logger.setLevel(logging.INFO)
 
 SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://ciox:Ciox123@13.79.224.241:1433/restApi?driver=ODBC+Driver+17+for+SQL+Server'
 
-# initialize app and API
-db_connect = create_engine(SQLALCHEMY_DATABASE_URI)
 app = Flask(__name__)
 api = Api(app)
 
@@ -79,6 +85,8 @@ class Records(Resource):
         for i in range(tries):
             try:
                 logger.info('Connect to DB:::: Try #' + str(i+1) + ' START.')
+                # initialize app and API
+                db_connect = create_engine(SQLALCHEMY_DATABASE_URI)
                 conn = db_connect.connect()
                 
                 agentUsername = conn.execute(
@@ -129,9 +137,9 @@ class Records(Resource):
         try:
             logger.info('TRIZMA DB import:::: START')
             query = conn.execute("insert into {0} values('{1}','{2}','{3}','{4}', \
-                                '{5}','{6}','{7}','{8}','{9}',{10})".format(table, line, standort, prozess,
+                                '{5}','{6}','{7}','{8}','{9}')".format(table, line, standort, prozess,
                                                                        agentUsername, caller_id, geschaeftsvorfall,
-                                                                       kundennummer, call_id, filenameAgentUsername, timestampGet))
+                                                                       kundennummer, call_id, filenameAgentUsername))
             logger.info('TRIZMA DB import:::: SUCCESS')
         except Exception as e:
             logger.info('Failed on TRIZMA DB import at:::: '
