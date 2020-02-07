@@ -34,6 +34,9 @@ logHandler.suffix = "%Y%m%d"
 #need to change the extMatch variable to match the suffix for it
 logHandler.extMatch = re.compile(r"^\d{8}$")
 
+if (logger.hasHandlers()):
+    logger.handlers.clear()
+
 logger.addHandler(logHandler)
 logger.setLevel(logging.INFO)
 
@@ -77,10 +80,12 @@ class Records(Resource):
         date = request.args.get('date', '')
         time = request.args.get('time', '')
         call_id = caller_id + '_' + date + '_' + time
+        
+        logger.info('Parameters received from GET:::: agent: {}, caller_id: {}, date: {}, time: {}, callid: {}'.format(agent, caller_id, date, time, call_id))
 
-        if caller_id == None:
-            caller_id == 'CALLER_ID NOT SENT VIA GET.'
-            logger.info('Connect to DB:::: CALLER_ID NOT SENT VIA GET.')
+        if caller_id == '':
+            caller_id = 'CALLER_ID NOT SENT VIA GET.'
+            logger.info('Caller_id check:::: CALLER_ID NOT SENT VIA GET.')
         
         tries = 5
         for i in range(tries):
@@ -152,7 +157,7 @@ class Records(Resource):
                         + ', with error:'
                         + str(e))
 
-        if agentUsername != 'agentUsername not fetched from TRIZMA DB.' and filenameAgentUsername != 'filenameAgentUsername not fetched from TRIZMA DB.':
+        if (agentUsername != 'agentUsername not fetched from TRIZMA DB.' and filenameAgentUsername != 'filenameAgentUsername not fetched from TRIZMA DB.') and caller_id != 'CALLER_ID NOT SENT VIA GET.':
             # soap client initialization
             try:
                 logger.info('123TV DB import:::: START')
@@ -169,9 +174,9 @@ class Records(Resource):
                             + ', for agent id: '
                             + str(agent)
                             + ', with error:'
-                            + str(e) + data)
+                            + str(e) + str(data))
         else:
-            logger.info('123TV DB import:::: agentUsername or filenameAgentUsername not fetched from TRIZMA DB.')
+            logger.info('123TV DB import:::: agentUsername AND filenameAgentUsername not fetched from TRIZMA DB, or caller_id is empty.')
 
 
 api.add_resource(Records, '/records')  # Route_1
