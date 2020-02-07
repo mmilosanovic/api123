@@ -9,8 +9,7 @@ from datetime import datetime
 import os
 from json import dumps
 
-now = datetime.now()
-timestamp = now.strftime("%Y-%m-%d")
+timestamp = datetime.now().strftime("%Y-%m-%d")
 
 # create logs folder if it does not exist
 # logFileFolder = 'C:/Users/mmilosanovic/Desktop/logs'
@@ -58,7 +57,7 @@ class Records(Resource):
     #     return {'data': [dict(zip(tuple (query.keys()), i)) for i in query.cursor]}
 
     def get(self):
-        timestampGet = now.strftime("%Y-%m-%d_%H-%M-%S")
+        timestampGet = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
         # get data from GET request from Avaya
         line = 'CC2Servicenummer'
@@ -72,30 +71,45 @@ class Records(Resource):
         time = request.args.get('time', '')
         call_id = caller_id + '_' + date + '_' + time
 
-        # connect to the database and get agent username
-        try:
-            logger.info('Connect to DB')
-            conn = db_connect.connect()
+        if caller_id == None:
+            caller_id == 'CALLER_ID NOT SENT VIA GET.'
+            logger.info('Connect to DB:::: CALLER_ID NOT SENT VIA GET.')
+        
+        tries = 5
+        for i in range(tries):
+            try:
+                logger.info('Connect to DB:::: Try #' + str(i+1) + ' START.')
+                conn = db_connect.connect()
+                
+                agentUsername = conn.execute(
+                    "select qmUser from {0} where cmsID = {1} and active = {2}".format(tableDimAgents,
+                                                                                       int(agent),
+                                                                                       1)).fetchone()[0]
 
-            agentUsername = conn.execute(
-                "select qmUser from {0} where cmsID = {1} and active = {2}".format(tableDimAgents,
-                                                                                   int(agent),
-                                                                                   1)).fetchone()[0]
-
-            filenameAgentUsername = conn.execute(
-                "select filenameUser from {0} where cmsID = {1} and active = {2}".format(tableDimAgents,
-                                                                                         int(agent),
-                                                                                         1)).fetchone()[0]
-
-        except Exception as e:
-            logger.info('Failed on TRIZMA DB connect at: '
-                        + str(timestampGet)
-                        + ', for following calling party: '
-                        + str(caller_id)
-                        + ', for agent id: '
-                        + str(agentUsername)
-                        + ', with error:'
-                        + str(e))
+                filenameAgentUsername = conn.execute(
+                    "select filenameUser from {0} where cmsID = {1} and active = {2}".format(tableDimAgents,
+                                                                                             int(agent),
+                                                                                             1)).fetchone()[0]
+                logger.info('Connect to DB:::: Try #' + str(i+1) + ' SUCCESS.')
+                
+            except Exception as e:
+                
+                if i < tries - 1: # i is zero indexed
+                    logger.info('Connect to DB:::: Fail #' + str(i+1) + ': ' + str(e))
+                    sleep(3)
+                    continue
+                else:
+                    agentUsername = 'agentUsername not fetched from TRIZMA DB.'
+                    filenameAgentUsername = 'filenameAgentUsername not fetched from TRIZMA DB.'
+                    logger.info('Failed on TRIZMA DB connect at:::: '
+                            + str(timestampGet)
+                            + ', for following calling party: '
+                            + str(caller_id)
+                            + ', for agent id: '
+                            + str(agentUsername)
+                            + ', with error:'
+                            + str(e))
+            break
 
         # dictionary to send via SOAP
         data = {
@@ -113,14 +127,14 @@ class Records(Resource):
 
         # query execution (load data to Trizma's database)
         try:
-            logger.info('TRIZMA DB import')
+            logger.info('TRIZMA DB import:::: START')
             query = conn.execute("insert into {0} values('{1}','{2}','{3}','{4}', \
-                                '{5}','{6}','{7}','{8}','{9}')".format(table, line, standort, prozess,
+                                '{5}','{6}','{7}','{8}','{9}',{10})".format(table, line, standort, prozess,
                                                                        agentUsername, caller_id, geschaeftsvorfall,
-                                                                       kundennummer, call_id, filenameAgentUsername))
-
+                                                                       kundennummer, call_id, filenameAgentUsername, timestampGet))
+            logger.info('TRIZMA DB import:::: SUCCESS')
         except Exception as e:
-            logger.info('Failed on TRIZMA DB import at: '
+            logger.info('Failed on TRIZMA DB import at:::: '
                         + str(timestampGet)
                         + ', for following calling party: '
                         + str(caller_id)
@@ -129,22 +143,26 @@ class Records(Resource):
                         + ', with error:'
                         + str(e))
 
-        # soap client initialization
-        try:
-            logger.info('123TV DB import')
-            soap_client = Client(apiEndPoint)
-            soap_client.service.importCallMetaData(**data)
-
-            return {'status': 'success'}
-        except Exception as e:
-            logger.info('Failed on 123TV DB import at: '
-                        + str(timestampGet)
-                        + ', for following calling party: '
-                        + str(caller_id)
-                        + ', for agent id: '
-                        + str(agent)
-                        + ', with error:'
-                        + str(e))
+        if agentUsername != 'agentUsername not fetched from TRIZMA DB.' and filenameAgentUsername != 'filenameAgentUsername not fetched from TRIZMA DB.':
+            # soap client initialization
+            try:
+                logger.info('123TV DB import:::: START')
+                soap_client = Client(apiEndPoint)
+                soap_client.service.importCallMetaData(**data)
+                logger.info('123TV DB import:::: SUCCESS')
+                
+                return {'status': 'success'}
+            except Exception as e:
+                logger.info('Failed on 123TV SOAP import at:::: '
+                            + str(timestampGet)
+                            + ', for following calling party: '
+                            + str(caller_id)
+                            + ', for agent id: '
+                            + str(agent)
+                            + ', with error:'
+                            + str(e) + data)
+        else:
+            logger.info('123TV DB import:::: agentUsername or filenameAgentUsername not fetched from TRIZMA DB.')
 
 
 api.add_resource(Records, '/records')  # Route_1
