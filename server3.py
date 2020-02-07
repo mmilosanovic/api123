@@ -63,7 +63,7 @@ class Records(Resource):
     #     return {'data': [dict(zip(tuple (query.keys()), i)) for i in query.cursor]}
 
     def get(self):
-        timestampGet = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        timestampGet = datetime.now()
 
         # get data from GET request from Avaya
         line = 'CC2Servicenummer'
@@ -137,7 +137,7 @@ class Records(Resource):
         try:
             logger.info('TRIZMA DB import:::: START')
             query = conn.execute("insert into {0} values('{1}','{2}','{3}','{4}', \
-                                '{5}','{6}','{7}','{8}','{9}',{10})".format(table, line, standort, prozess,
+                                '{5}','{6}','{7}','{8}','{9}','{10}')".format(table, line, standort, prozess,
                                                                        agentUsername, caller_id, geschaeftsvorfall,
                                                                        kundennummer, call_id, filenameAgentUsername, timestampGet))
             logger.info('TRIZMA DB import:::: SUCCESS')
