@@ -9,6 +9,7 @@ from datetime import datetime
 import os
 from json import dumps
 import re
+from logging.handlers import TimedRotatingFileHandler
 
 timestamp = datetime.now().strftime("%Y-%m-%d")
 
@@ -22,7 +23,7 @@ if not os.path.exists(logFileFolder):
 logFilePath = os.path.join(logFileFolder,
                            '123tv.log')
 
-logHandler = logging.handlers.TimedRotatingFileHandler(logFilePath,when="midnight",interval=1)
+logHandler = TimedRotatingFileHandler(logFilePath,when="midnight",interval=1)
 logFormatter = logging.Formatter('%(asctime)20s - %(levelname)7s - %(message)s')
 logHandler.setFormatter(logFormatter)
 logger = logging.getLogger(__name__)
